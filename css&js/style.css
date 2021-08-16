@@ -1,0 +1,66 @@
+/*-------------
+  custom size
+------------- */
+.header-text {
+    width: 30em;
+}
+.question-container {
+    width: 50%;
+}
+.question-container img {
+    width: 75%;
+}
+.section-header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.section-header p {
+    font-size: 2.7em;
+    font-weight: bold;
+}
+
+
+/*------------
+ Custom Colour
+ ------------ */
+.primarybg-color {
+    background-color: #264653;
+}
+.bg-color2 {
+    background-color: rgb(231 241 255);
+}
+.text-color-1st {
+    color: #E76F51;
+}
+.text-color-2nd {
+    color: #23A6F0;
+}
+.modal-text {
+    color: black;
+}
+.btn-color {
+    background-color: #E76F51;
+    color: white;
+}
+.gray-img {
+    filter: grayscale(100%);
+}
+
+
+/*--------------------------
+        Mobile Screen
+--------------------------- */
+@media only screen and (max-width: 600px) {
+    .header-text {
+        width: 100%;
+    }
+
+    .question-container {
+        width: 100%;
+    }
+
+    .question-container img {
+        width: 100%;
+    }
+
+}
